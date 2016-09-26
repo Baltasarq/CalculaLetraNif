@@ -1,4 +1,4 @@
-package com.devbaltasarq.CalculaLetraNif.calculaletranif;
+package com.devbaltasarq.calculaletranif.ui;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -8,11 +8,14 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.devbaltasarq.calculaletranif.R;
+import com.devbaltasarq.calculaletranif.core.CalculoLetraNif;
+
 public class MainActivity extends AppCompatActivity {
     @Override
     public void onCreate(Bundle appState) {
-        super.onCreate(appState);
-        this.setContentView(R.layout.activity_main);
+        super.onCreate( appState );
+        this.setContentView( R.layout.activity_main );
 
         // Link to events
         EditText edDni = (EditText) this.findViewById( R.id.edDni );

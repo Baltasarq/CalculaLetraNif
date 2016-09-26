@@ -1,4 +1,4 @@
-package com.devbaltasarq.CalculaLetraNif.calculaletranif;
+package com.devbaltasarq.calculaletranif.core;
 
 /**
  * Core de la app.
