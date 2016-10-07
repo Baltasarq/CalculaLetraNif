@@ -8,7 +8,6 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.devbaltasarq.calculaletranif.R;
 import com.devbaltasarq.calculaletranif.core.CalculoLetraNif;
 
 public class MainActivity extends AppCompatActivity {
