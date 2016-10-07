@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
         }
         catch(NumberFormatException exc) {
             lblResult.setText( R.string.label_default_result );
-            Toast.makeText( this.getApplicationContext(), R.string.label_default_result, Toast.LENGTH_SHORT ).show();
+            Toast.makeText( this, R.string.label_default_result, Toast.LENGTH_SHORT ).show();
         }
     }
 
